@@ -1,1 +1,750 @@
-let's talk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact™ - For Easy Contact</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+<script async data-id="101507669" src="//static.getclicky.com/js"></script>
+</head>
+<body data-page="lander">
+
+<header class="navbar">
+  <div class="nav-left">
+    <img src="img/logo_blue.png" class="nav-logo" data-animate="true">
+    <img src="img/contact_logo_en.png" class="logo-image" onclick="scrollToCategory('hero')">
+  </div>
+
+  <div id="desktop-nav" class="nav-center">
+    <div class="nav-indicator"></div>
+    <a class="nav-link" data-section="features" onclick="scrollToCategory('features')">
+      <img class="nav-icon" src="img/nav_features.png"><span class="nav-text">Features</span></a>
+    <a class="nav-link" data-section="livemail" onclick="scrollToCategory('livemail')">
+      <img class="nav-icon" src="img/nav_livemail.png"><span class="nav-text">Livemail</span></a>
+    <a class="nav-link" data-section="answer" onclick="scrollToCategory('answer')">
+      <img class="nav-icon" src="img/nav_answer.png"><span class="nav-text">Answer</span></a>
+    <a class="nav-link" data-section="input" onclick="scrollToCategory('input')">
+      <img class="nav-icon" src="img/nav_input.png"><span class="nav-text">Input</span></a>
+    <a class="nav-link" data-section="protocol" onclick="scrollToCategory('protocol')">
+      <img class="nav-icon" src="img/nav_protocol.png"><span class="nav-text">Protocol</span></a>
+    <a class="nav-link" data-section="drive" onclick="scrollToCategory('drive')">
+      <img class="nav-icon" src="img/nav_drive.png"><span class="nav-text">Drive</span></a>
+    <a class="nav-link" data-section="pricing" onclick="scrollToCategory('pricing')">
+      <img class="nav-icon" src="img/nav_pricing.png"><span class="nav-text">Pricing</span></a>
+    <a class="nav-link" data-section="download" onclick="scrollToCategory('download')">
+      <img class="nav-icon" src="img/nav_download.png"><span class="nav-text">Download</span></a>
+    <a class="nav-link" data-section="customers" onclick="scrollToCategory('customers')">
+      <img class="nav-icon" src="img/nav_customers.png"><span class="nav-text">Customers</span></a>
+    <a class="nav-link" data-section="universe" onclick="scrollToCategory('universe')">
+      <img class="nav-icon" src="img/nav_universe.png"><span class="nav-text">Universe</span></a>
+  </div>
+
+  <div class="nav-right">
+    <a href="login" class="nav-btn btn-a">Log in</a>
+    <a href="signup" class="nav-btn btn-b">Sign up</a>
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu">
+  <a class="nav-link" data-section="features" onclick="scrollToCategory('features')"><img class="nav-icon" src="img/nav_features.png"><span class="nav-text">Features</span></a>
+  <a class="nav-link" data-section="livemail" onclick="scrollToCategory('livemail')"><img class="nav-icon" src="img/nav_livemail.png"><span class="nav-text">Livemail</span></a>
+  <a class="nav-link" data-section="answer" onclick="scrollToCategory('answer')"><img class="nav-icon" src="img/nav_answer.png"><span class="nav-text">Answer</span></a>
+  <a class="nav-link" data-section="input" onclick="scrollToCategory('input')"><img class="nav-icon" src="img/nav_input.png"><span class="nav-text">Input</span></a>
+  <a class="nav-link" data-section="protocol" onclick="scrollToCategory('protocol')"><img class="nav-icon" src="img/nav_protocol.png"><span class="nav-text">Protocol</span></a>
+  <a class="nav-link" data-section="drive" onclick="scrollToCategory('drive')"><img class="nav-icon" src="img/nav_drive.png"><span class="nav-text">Drive</span></a>
+  <a class="nav-link" data-section="pricing" onclick="scrollToCategory('pricing')"><img class="nav-icon" src="img/nav_pricing.png"><span class="nav-text">Pricing</span></a>
+  <a class="nav-link" data-section="download" onclick="scrollToCategory('download')"><img class="nav-icon" src="img/nav_download.png"><span class="nav-text">Download</span></a>
+  <a class="nav-link" data-section="customers" onclick="scrollToCategory('customers')"><img class="nav-icon" src="img/nav_customers.png"><span class="nav-text">Customers</span></a>
+  <a class="nav-link" data-section="universe" onclick="scrollToCategory('universe')"><img class="nav-icon" src="img/nav_universe.png"><span class="nav-text">Universe</span></a>
+</div>
+
+<!-- Hero Section -->
+<div id="hero"></div>
+<div class="hero-title">
+  <span>The simplest</span>
+  <span>AI assistant</span>
+  <span>on Earth.</span>
+</div>
+<div class="divider"></div>
+<div class="hero-stop">
+    <img class="hero-stop-bg" src="img/stop.png">
+    <img class="hero-cloud" src="img/cloud.png">
+    <div class="hero-balloon-wrap">
+        <img class="hero-balloon" src="img/balloon.png">
+    </div>
+    <div class="hero-ufo-wrap">
+        <img class="hero-ufo" src="img/ufo.png">
+    </div>
+    <img class="hero-boat" src="img/sailboat.png">
+</div>
+<h2>AI drafts first.<br>
+  You stay in control.</h2>
+  <div style="text-align:center;margin-top:20px;">
+    <a href="signup" class="btn btn-hero">Get Started Free</a>
+  </div>
+  <div class="hero-points">
+  <p>No CRM. &nbsp;&nbsp; No workflows. &nbsp;&nbsp; No complexity.</p>
+</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Features Section -->
+<div id="features"></div>
+<h1><img src="img/h1_features.png" class="h1-icon">Features</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Livemail Section -->
+<div id="livemail"></div>
+<h1><img src="img/h1_livemail.png" class="h1-icon">Livemail</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Answer Section -->
+<div id="answer"></div>
+<h1><img src="img/h1_answer.png" class="h1-icon">Answer</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Input Section -->
+<div id="input"></div>
+<h1><img src="img/h1_input.png" class="h1-icon">Input</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Protocol Section -->
+<div id="protocol"></div>
+<h1><img src="img/h1_protocol.png" class="h1-icon">Protocol</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Drive Section -->
+<div id="drive"></div>
+<h1><img src="img/h1_drive.png" class="h1-icon">Drive</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Pricing Section -->
+<div id="pricing"></div>
+<h1><img src="img/h1_pricing.png" class="h1-icon">Pricing</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="pricing-box">
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th class="th-header">
+    <div class="th-brand">
+        <img src="img/contact_icon.png" class="th-icon">
+        <div class="th-title">Contact™</div>
+        <div class="th-subtitle">Compare Plans</div>
+    </div>
+</th>
+<th class="free">
+<span class="badge badge-free">Free</span>
+<div class="price">
+    <div class="yearly">Forever</div>
+</div>
+</th>
+
+<th class="pro">
+<div class="popular-tag">MOST POPULAR</div>
+<span class="badge">Pro</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 17%">Save 17%</div>
+<div>$<span class="monthly" data-monthly="9.99" data-yearly="8.25">8<span class="decimal">.25</span></span><span>/mo</span></div>
+<div><span class="renews" data-monthly="$119.88/year" data-yearly="$99.00/year">$99.00/year</span></div>
+</div>
+</th>
+
+<th class="premium">
+<div class="value-tag">BEST VALUE</div>
+<span class="badge badge-premium">Premium</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 7%">Save 7%</div>
+<div>$<span class="monthly" data-monthly="26.99" data-yearly="24.99">24<span class="decimal">.99</span></span><span>/mo</span></div>
+<div><span class="renews" data-monthly="$323.88/year" data-yearly="$299.88/year">$299.88/year</span></div>
+</div>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="cta-row">
+  <td>
+<div class="billing-toggle">
+  <button data-cycle="monthly">
+    Monthly
+  </button>
+  <button class="active" data-cycle="yearly">
+    Yearly✨
+  </button>
+</div>
+  </td>
+
+  <td>
+    <a href="#" class="btn btn-free">
+      Start Free
+    </a>
+  </td>
+
+  <td class="pro">
+    <a href="#" class="btn btn-pro">
+      Upgrade to Pro
+    </a>
+  </td>
+
+  <td class="premium">
+    <a href="#" class="btn btn-premium">
+      Upgrade to Premium
+    </a>
+  </td>
+</tr>
+<tr><td>AI Engine</td><td>Contact™ AI Lite</td><td class="pro">Contact™ AI Pro</td><td class="premium">Contact™ AI Premium</td></tr>
+<tr><td>AI Drafts</td><td>50/mo</td><td class="pro">500/mo</td><td class="premium">Unlimited</td></tr>
+<tr><td>Multiple Email Accounts</td><td>1 Email Account</td><td class="pro">3 Email Accounts</td><td class="premium">Unlimited</td></tr>
+<tr><td>Unified Inbox</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Live Mail Mode<br><span class="note">Edit After Sending</span></td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Gmail & Outlook Integration</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Google & Outlook Calendar Sync</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Conversation Booking</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Verified Contact</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Contact™ Card</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Contact™ Meet</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Contact™ Answer</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Contacts</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Offer & Deal</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Live Chat</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Visitor Contacts</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>AI Email Translation</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Review before sending</td><td>✓</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Auto-send</td><td class="dash">-</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Voice Calls</td><td class="dash">-</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Advanced Response Controls</td><td class="dash">-</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Higher Quality Replies</td><td class="dash">-</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Live Chat Icon Color Customization</td><td class="dash">-</td><td class="pro">✓</td><td class="premium">✓</td></tr>
+<tr><td>Live Chat Icon Image/GIF</td><td class="dash">-</td><td class="pro dash">-</td><td class="premium">✓</td></tr>
+<tr><td>Live Chat Icon Animated Video</td><td class="dash">-</td><td class="pro dash">-</td><td class="premium">✓</td></tr>
+<tr><td>Priority Processing</td><td class="dash">-</td><td class="pro dash">-</td><td class="premium">✓</td></tr>
+<tr><td>Connect your domain email</td><td class="dash">-</td><td class="pro dash">-</td><td class="premium">✓</td></tr>
+<tr><td>Use your domain for your Card</td><td class="dash">-</td><td class="pro dash">-</td><td class="premium">✓</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="space"></div>
+<div class="pricing-box">
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th class="th-header">
+    <div class="th-brand">
+        <img src="img/hot.png" class="th-hot hot1">
+        <img src="img/hot2.png" class="th-hot hot2">
+        <img src="img/livemail_icon.png" class="th-icon">
+        <div class="th-title">LiveMail.me</div>
+        <div class="th-subtitle">Professional Email</div>
+    </div>
+</th>
+<th class="personal">
+<span class="badge badge-free">Personal</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 40%">Save 40%</div>
+<div>$<span class="monthly" data-monthly="1.98" data-yearly="0.99">0<span class="decimal">.98</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="0.99" data-yearly="11.88">11<span class="decimal">.88</span></span><span class="period" data-monthly=" first month" data-yearly=" first year"> first year</span></div>
+<div class="note" data-monthly="　" data-yearly="Renews at $19.80/year">Renews at $19.80/year</div>
+</div>
+</th>
+<th class="pro">
+<div class="popular-tag">PROFESSIONAL EMAIL</div>
+<span class="badge">Pro</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 40%">Save 40%</div>
+<div>$<span class="monthly" data-monthly="5.98" data-yearly="2.99">2<span class="decimal">.99</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="2.99" data-yearly="35.88">35<span class="decimal">.88</span></span><span class="period" data-monthly=" first month" data-yearly=" first year"> first year</span></div>
+<div class="note" data-monthly="　" data-yearly="Renews at $59.88/year">Renews at $59.88/year</div>
+</th>
+<th class="premium">
+<div class="value-tag">BUSINESS EMAIL</div>
+<span class="badge badge-premium">Business</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 40%">Save 40%</div>
+<div>$<span class="monthly" data-monthly="9.98" data-yearly="4.99">4<span class="decimal">.99</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="4.99" data-yearly="59.88">59<span class="decimal">.88</span></span><span class="period" data-monthly=" first month" data-yearly=" first year"> first year</span></div>
+<div class="note" data-monthly="　" data-yearly="Renews at $99.96/year">Renews at $99.96/year</div>
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr class="cta-row">
+<td>
+<div class="billing-toggle">
+  <button data-cycle="monthly">
+    Monthly
+  </button>
+  <button class="active" data-cycle="yearly">
+    Yearly✨
+  </button>
+</div>
+</td>
+<td>
+<a href="#" class="btn btn-free">
+Select Personal
+</a>
+</td>
+<td class="pro">
+<a href="#" class="btn btn-pro">
+Select Pro
+</a>
+</td>
+<td class="premium">
+<a href="#" class="btn btn-premium">
+Select Business
+</a>
+</td>
+</tr>
+<tr>
+    <td>Mailboxes</td>
+
+    <td>
+        <div class="mailbox-selector">
+            <button class="qty-btn">−</button>
+            <span class="qty-value">1</span>
+            <button class="qty-btn">+</button>
+        </div>
+    </td>
+
+    <td class="pro">
+        <div class="mailbox-selector">
+            <button class="qty-btn">−</button>
+            <span class="qty-value">1</span>
+            <button class="qty-btn">+</button>
+        </div>
+    </td>
+
+    <td class="premium">
+        <div class="mailbox-selector">
+            <button class="qty-btn">−</button>
+            <span class="qty-value">1</span>
+            <button class="qty-btn">+</button>
+        </div>
+    </td>
+</tr>
+<tr>
+<td>Total Email Storage</td>
+<td>20 GB<br><span class="note">Approx 100,000 emails</span></td>
+<td class="pro">50 GB<br><span class="note">Approx 250,000 emails</span></td>
+<td class="premium">100 GB<br><span class="note">Approx 500,000 emails</span></td>
+</tr>
+<tr>
+<td>Storage per Mailbox</td>
+<td>20 GB<br><span class="note">Approx 100,000 emails</span></td>
+<td class="pro">50 GB<br><span class="note">Approx 250,000 emails</span></td>
+<td class="premium">100 GB<br><span class="note">Approx 500,000 emails</span></td>
+</tr>
+<tr>
+<td>Custom Email Domains</td>
+<td>2 custom domains</td>
+<td class="pro">5 custom domains</td>
+<td class="premium">10 custom domains</td>
+</tr>
+<tr>
+<td>Email Addresses / Aliases</td>
+<td>100</td>
+<td class="pro">250</td>
+<td class="premium">500</td>
+</tr>
+<tr>
+<td>Email Forwarding Rules</td>
+<td>100</td>
+<td class="pro">250</td>
+<td class="premium">500</td>
+</tr>
+<tr>
+<td>AI Drafts<br><span class="note">More with Contact™ Plan</span></td>
+<td>50/mo</td>
+<td class="pro">50/mo</td>
+<td class="premium">50/mo</td>
+</tr>
+<tr>
+<td>Review before sending</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Live Mail Mode<br><span class="note">Edit After Sending</span></td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>AI Email Translation</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Webmail & Mobile Apps<br><span class="note">IMAP, POP3 & SMTP</span></td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>GDPR & NIS2 Compliant</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>99.9% Uptime Guarantee</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Security & Privacy Protection</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Two-Factor Authentication</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>24/7 Human Expert Support</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Verified Contact</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Contact™ Card</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Contact™ Meet</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Contacts and Calendar</td>
+<td>✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div class="space"></div>
+<div class="pricing-box">
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th class="th-header">
+    <div class="th-brand">
+        <div class="th-title">Contact Drive</div>
+        <div class="th-subtitle">Cloud Storage</div>
+    </div>
+</th>
+<th>
+<span class="badge badge-free">Free</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="　">　</div>
+<div>$<span class="monthly" data-monthly="0.00" data-yearly="0.00">0<span class="decimal">.00</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="0.00" data-yearly="0.00">0<span class="decimal">.00</span></span><span class="period" data-monthly=" /year" data-yearly=" /year"> /year</span></div>
+<div class="note">2 GB included</div>
+</div>
+</th>
+<th class="personal">
+<span class="badge">Personal</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 20%">Save 20%</div>
+<div>$<span class="monthly" data-monthly="2.49" data-yearly="2.00">2<span class="decimal">.49</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="23.99" data-yearly="23.99">23<span class="decimal">.99</span></span><span class="period" data-monthly=" /year" data-yearly=" /year"> /year</span></div>
+<div class="note">Starting at 200 GB</div>
+</div>
+</th>
+<th class="pro">
+<div class="popular-tag">HIGH CAPACITY STORAGE</div>
+<span class="badge">Premium</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="Save 17%">Save 17%</div>
+<div>$<span class="monthly" data-monthly="11.99" data-yearly="10.00">11<span class="decimal">.99</span></span><span>/mo</span></div>
+<div>$<span class="yearly" data-monthly="119.99" data-yearly="119.99">119<span class="decimal">.99</span></span><span class="period" data-monthly=" /year" data-yearly=" /year"> /year</span></div>
+<div class="note">Starting at 1 TB</div>
+</div>
+</th>
+<th class="premium">
+<div class="value-tag">AI DATA STORAGE / RESEARCH</div>
+<span class="badge badge-premium">Max</span>
+<div class="price">
+<div class="save" data-monthly="　" data-yearly="　">　</div>
+<div>Custom</div>
+<div>Pricing</div>
+<div class="note">50 TB+</div>
+</div>
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr class="cta-row">
+<td>
+<div class="billing-toggle">
+  <button data-cycle="monthly">
+    Monthly
+  </button>
+  <button class="active" data-cycle="yearly">
+    Yearly✨
+  </button>
+</div>
+</td>
+<td>
+<a href="#" class="btn btn-free">
+Select Free
+</a>
+</td>
+<td class="personal">
+<a href="#" class="btn btn-free">
+Select Personal
+</a>
+</td>
+<td class="pro">
+<a href="#" class="btn btn-pro">
+Select Premium
+</a>
+</td>
+<td class="premium">
+<a href="#" class="btn btn-premium">
+Contact Sales
+</a>
+</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>
+2 GB
+</td>
+<td class="personal">
+200 GB<br>
+500 GB<br>
+<span class="note">Select storage at checkout</span>
+</td>
+<td class="pro">
+1 TB<br>
+2 TB<br>
+5 TB<br>
+10 TB<br>
+20 TB<br>
+<span class="note">Select storage at checkout</span>
+</td>
+<td class="premium">
+50 TB<br>
+100 TB<br>
+200 TB<br>
+500 TB<br>
+1 PB<br>
+<span class="note">Custom pricing</span>
+</td>
+</tr>
+<tr>
+<td>Single File Size</td>
+<td>25 MB</td>
+<td class="personal">100 MB</td>
+<td class="pro">100 MB</td>
+<td class="premium">Custom</td>
+</tr>
+<tr>
+<td>File Sharing</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Share Links</td>
+<td>drive.contact</td>
+<td class="personal">drive.contact</td>
+<td class="pro">drive.contact</td>
+<td class="premium">drive.contact</td>
+</tr>
+<tr>
+<td>Private Storage</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Storage Pool</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Trash</td>
+<td>30 days</td>
+<td class="personal">30 days</td>
+<td class="pro">30 days</td>
+<td class="premium">30 days</td>
+</tr>
+<tr>
+<td>Automatic File Cleanup</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Web Access</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>File Management</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Secure Storage</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>AI Data Storage / Research</td>
+<td>—</td>
+<td class="personal">—</td>
+<td class="pro">—</td>
+<td class="premium">✓</td>
+</tr>
+<tr>
+<td>Large-Scale Storage</td>
+<td>—</td>
+<td class="personal">—</td>
+<td class="pro">—</td>
+<td class="premium">50 TB – 1 PB</td>
+</tr>
+<tr>
+<td>Contact Support</td>
+<td>✓</td>
+<td class="personal">✓</td>
+<td class="pro">✓</td>
+<td class="premium">✓</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Download Section -->
+<div id="download"></div>
+<h1><img src="img/h1_download.png" class="h1-icon">Download</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Customers Section -->
+<div id="customers"></div>
+<h1><img src="img/h1_customers.png" class="h1-icon">Customers</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Universe Section -->
+<div id="universe"></div>
+<h1><img src="img/h1_universe.png" class="h1-icon">Universe</h1>
+<div class="divider"></div>
+<div class="subtitle">AI drafts first. You stay in control.</div>
+<div class="table-wrapper">
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="copyright-logo">
+        <img src="img/contact_en.png">
+    </div>
+
+    <div class="footer-links">
+        <a href="/faq">FAQ</a>
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/help">Help</a>
+
+    <div class="lang-wrapper" id="lang-wrapper">
+    <div id="lang-toggle">
+      <img class="lang-flag" src="img/lang.png">
+      <span>EN&nbsp;&#9662;</span>
+    </div>
+    <div id="lang-dropdown">
+      <ul>
+        <li><a href="#"><img class="lang-flag" src="img/lang_us.png">English</a></li>
+        <li><a href="#"><img class="lang-flag" src="img/lang_es.png">Español</a></li>
+        <li><a href="#"><img class="lang-flag" src="img/lang_jp.png">日本語</a></li>
+        <li><a href="#"><img class="lang-flag" src="img/lang_tw.png">中文</a></li>
+      </ul>
+    </div>
+    </div>
+
+    </div>
+    <div class="divider"></div>
+    <div class="footer-copyright">
+        <div class="copyright-text">
+            Copyright © 2026 Starman Inc. All rights reserved.
+        </div>
+        <div class="copyright-subtext">
+            Officially Licensed Starman Franchise.<br>
+            Built with love for all beings.
+        </div>
+    </div>
+</footer>
+</body>
+</html>
