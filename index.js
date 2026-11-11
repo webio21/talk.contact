@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const indicator = navCenter?.querySelector('.nav-indicator');
 
   const sections = document.querySelectorAll(
-    '#features,#pricing,#demo,#download,#customers,#universe'
+    '#app,#answer,#run,#twin,#card,#livemail,#drive,#pricing,#protocol,#universe'
   );
 
   let isAutoScrolling = false;
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
     const scrollTop = window.scrollY + navbar.offsetHeight + 20;
 
-    const first = document.getElementById('features');
+    const first = document.getElementById('app');
     if (!first) return;
 
     if (scrollTop < first.offsetTop) {

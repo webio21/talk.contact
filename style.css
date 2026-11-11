@@ -1853,6 +1853,7 @@ display: flex;
 }
 
 .profile-status {
+  box-sizing: content-box;
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -2059,10 +2060,10 @@ display: flex;
 .avatar-menu-item {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 5px;
   width: 100%;
   min-height: 39px;
-  padding: 0 11px;
+  padding: 0 5px;
   box-sizing: border-box;
   border-radius: 11px;
   color: #222;
@@ -2075,9 +2076,9 @@ display: flex;
 }
 
 .avatar-menu-icon {
-  width: 18px;
-  height: 18px;
-  flex: 0 0 18px;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
   object-fit: contain;
   user-select: none;
   -webkit-user-drag: none;
@@ -2086,11 +2087,6 @@ display: flex;
 
 .avatar-menu-item:hover {
   background: #dff9ff;
-}
-
-.logout-item:hover {
-  color: #ff5555;
-  background: #fff4f3;
 }
 
 /* =========================
